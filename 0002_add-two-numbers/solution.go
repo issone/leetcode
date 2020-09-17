@@ -1,4 +1,4 @@
-package _002_Add_Two_Numbers
+package _002_add_two_numbers
 
 //* Definition for singly-linked list.
 type ListNode struct {

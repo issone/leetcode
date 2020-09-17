@@ -1,4 +1,4 @@
-package _003_Longest_Substring_Without_Repeating_Characters
+package _003_longest_substring_without_repeating_characters
 
 func lengthOfLongestSubstring(s string) int {
 	m := map[byte]int{}

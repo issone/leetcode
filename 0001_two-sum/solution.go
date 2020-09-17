@@ -1,3 +1,4 @@
+package _001_two_sum
 func twoSum(nums []int, target int) []int {
 	m:= make(map[int] int)
 	for k, v := range nums{

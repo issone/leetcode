@@ -25,7 +25,7 @@ class Solution2:
         # k表示当前不重复子串的起始位置
         k = -1
 
-        for i, c in enumerate(s): # 从头遍历字符串
+        for i, c in enumerate(s):  # 从头遍历字符串
 
             if c in c_dict and c_dict[c] > k:
                 # 如果c出现重复，即c在c_dict
