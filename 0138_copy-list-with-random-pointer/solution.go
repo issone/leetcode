@@ -1,4 +1,4 @@
-package _138_copy_list_with_random_     pointer
+package _138_copy_list_with_random_pointer
 
 type Node struct {
     Val int
