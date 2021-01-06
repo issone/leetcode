@@ -1,4 +1,4 @@
-package __073_set_matrix_zeroes
+package _073_set_matrix_zeroes
 
 func setZeroes(matrix [][]int)  {
 	row := len(matrix)
