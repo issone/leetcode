@@ -1,4 +1,4 @@
-package main
+package _039_combination_sum
 
 func combinationSum(candidates []int, target int) [][]int {
 	res := [][]int{}
