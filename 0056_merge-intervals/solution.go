@@ -1,3 +1,7 @@
+package _056_merge_intervals
+
+import "sort"
+
 func merge(intervals [][]int) [][]int {
 	sort.Slice(intervals, func(i,j int) bool{
 		return intervals[i][0] < intervals[j][0]
